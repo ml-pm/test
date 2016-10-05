@@ -1,0 +1,90 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body{
+    background:url("images/background.jpg") no-repeat;
+}
+#wrapper{
+    width:960px;
+    margin:0 auto;
+    border: solid 2px red;
+    border-radius: 25px;
+    background-color: white;
+}
+h1{
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    color: red;
+    font-size: 400%;
+    width: 500px;
+    position: relative;
+    left:220px;
+    border-bottom: 2px solid red;
+}
+#inputText{
+    position: relative;
+    left:350px;
+    border:2px solid red;
+    padding:5px;
+}
+#addItems{
+     position: relative;
+     left:345px;
+     padding:6px;
+     color:white;
+     background-color: indianred;
+     font-family: 'Overlock', cursive;
+}
+section{
+    text-align: center;
+}
+section ul{
+    font-size:200%;
+    font-family: 'Kaushan Script', cursive;
+    color:green;
+    
+}
+section li{
+    list-style-type: none;
+}
+section span{
+    float:left;
+    position:relative;
+    left:380px;
+    font-size: 120%;
+}
+section h2{
+    color:red;
+    border-bottom: 2px solid red;
+    width:500px;
+    position: relative;
+    left:180px;
+}
+.delItem{
+    position: relative;
+    right:50px;
+    padding: 5px 25px;
+    background-color: indianred;
+    color:white;
+    border: 2px solid red;
+    border-radius: 20px;
+    font-family: 'Bangers', cursive;
+    font-size: 55%;
+}
+.completed{
+    padding: 5px 25px;
+    background-color: indianred;
+    color:white;
+    border: 2px solid red;
+    border-radius: 20px;
+    font-family: 'Bangers', cursive;
+    font-size: 50%;
+    position: relative;
+    right:20px;
+}
+#done span{
+    position: relative;
+    left:380px;
+}
